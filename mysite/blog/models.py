@@ -16,3 +16,17 @@ def publish(self):
 
 def __str__(self):
     return self.title
+
+class Voetbalspelers(models.Model):
+    Naam_voetballer = models.CharField(max_length=100)
+    actuele_voetbalclub = models.CharField(max_length=100)
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    created_date = models.DateTimeField(default=timezone.now)
+    published_date = models.DateTimeField(blank=True, null=True)
+
+def publish(self):
+    self.published_date = timezone.now()
+    self.save()
+
+def __str__(self):
+    return self.title
