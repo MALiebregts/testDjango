@@ -23,6 +23,7 @@ class Voetbalspelers(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
+    
 
 def publish(self):
     self.published_date = timezone.now()
