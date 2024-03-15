@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f$nt+7@r&ik_m_wh4!s^!4%t+couc3s6o0970p8ce8u0(hn-v5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://liebregts.eu.pythonanywhere.com/]
 
 
 # Application definition
