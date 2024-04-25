@@ -24,11 +24,11 @@ article {
 }
 
 .post {
-    background-color: pink;
+    background-color: black;
 }
 
 p {
-    padding: 10px;
+    margin: 10px;
 }
 
 footer {
@@ -39,5 +39,9 @@ footer {
 
 h2 {
     padding-left: 25px;
+    color: yellow;
+}
+
+post.title {
     color: yellow;
 }
