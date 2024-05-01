@@ -49,3 +49,7 @@ h2 {
 .post.text {
     margin: 20px;
 }
+
+.post.title { 
+    color: yellow;
+}
