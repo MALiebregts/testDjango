@@ -7,18 +7,28 @@ header {
 }
 
 body{
-    background-color: orange;
+    background-color: darkred;
     color: black;
 }
 
 h1{
-    color: white;
+    color: green;
 }
 
 article{
     width: 500px;
-    margin-bottom: 40px;
-    border: 3px solid red;
+    height: auto;
+    border: 2px solid white;
+    padding: 2px;
+    margin-left: 33%;
+}
+
+.post {
+    background-color: pink;
+}
+
+p {
+    padding: 10px;
 }
 
 footer {
@@ -26,3 +36,22 @@ footer {
     height: 75px;
     margin-top: 25px;
 }
+
+.date {
+    padding: 0px;
+}
+
+h2 {
+    padding-left: 0px;
+    color: yellow;
+}
+
+.post.text {
+    margin: 20px;
+}
+
+.post.title { 
+    color: yellow;
+    padding-left: 50px;
+}
+
