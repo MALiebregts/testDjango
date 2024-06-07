@@ -1,7 +1,7 @@
 header {
     background-color:orange;
     text-align: left;
-    height: 50px;
+    height: 75px;
     margin-bottom: 25px;
     padding: 25px 0px 25px 25px;
 }
@@ -17,7 +17,7 @@ h1{
 
 article{
     width: 500px;
-    height: auto;
+    margin-bottom: 25px;
     border: 2px solid white;
     padding: 2px;
     margin-left: 33%;
@@ -28,13 +28,14 @@ article{
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 footer {
     background-color: darkorange;
     height: 75px;
     margin-top: 25px;
+    padding: 10px 0px 0px 25px;
 }
 
 .date {
@@ -43,15 +44,6 @@ footer {
 
 h2 {
     padding-left: 0px;
-    color: yellow;
+    font-weight: bold;
+    color: orange;
 }
-
-.post.text {
-    margin: 20px;
-}
-
-.post.title { 
-    color: yellow;
-    padding-left: 50px;
-}
-
