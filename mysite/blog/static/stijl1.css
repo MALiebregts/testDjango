@@ -15,16 +15,17 @@ h1{
     color: black;
 }
 
-article{
-    width: 500px;
-    margin-bottom: 25px;
-    border: 2px solid white;
-    padding: 2px;
-    margin-left: 33%;
+article {
+    background-color: green;
 }
 
-.post {
+.post{
     background-color: pink;
+    width: 500px;
+    margin-bottom: 25px;
+    border: 4px solid white;
+    padding: 10px;
+    margin-left: 33%;
 }
 
 p {
