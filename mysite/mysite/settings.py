@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^tuh#=9!-@zut@b12fl**ehi%1)5w+lv9+kn1crw)5o5yr1d=='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True   
 
-ALLOWED_HOSTS = [https://liebregts.eu.pythonanywhere.com]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'https://liebregts.eu.pythonanywhere.com'
+ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
     {

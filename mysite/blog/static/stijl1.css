@@ -15,8 +15,8 @@ h1{
     color: black;
 }
 
-article {
-    background-color: green;
+article .p{
+    background-color: pink;
 }
 
 .post{
