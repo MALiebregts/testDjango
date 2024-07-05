@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="{% static 'stijl1.css' %}">
 <title></title>
 </head>
-<header><h1>Mijn website</h1></header>
+<header><h1>Mijn website</h1><br>
+<a href="{% url 'post_nieuw' %}" class="top-menu">Post schrijven</a>
+</header>
 <body>
     {% block content %}
     {% for post in posts %}
