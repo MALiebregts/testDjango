@@ -9,6 +9,7 @@ header {
 body{
     background-color: darkred;
     color: black;
+    
 }
 
 h1{
@@ -49,6 +50,6 @@ h2 {
     color: orange;
 }
 
-a{
+a {
     color: black;
 }

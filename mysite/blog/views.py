@@ -18,10 +18,10 @@ def post_nieuw(request):
         form = PostForm(request.POST)
         if form.is_valid():
             post = form.save(commit=False)
-            post.autor = request.user
+            post.author = request.user
             post.published_date = timezone.now()
             post.save()
             return redirect('post_inhoud', pk=post.pk)
     else:
-        form = PostForm() 
+        form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
